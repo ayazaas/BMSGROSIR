@@ -948,7 +948,7 @@ def sn_sebagai_teks(sn):
 def buat_order_id():
     now = now_wib()
     acak = random.randint(100, 999)
-    return f"ORD-{now.strftime('%y%m%d-%H%M%S')}-{acak}"
+    return f"ORD-BMSGR-{now.strftime('%y%m%d-%H%M%S')}-{acak}"
 
 def format_no_wa(no_wa):
     digits = "".join(ch for ch in no_wa if ch.isdigit())
